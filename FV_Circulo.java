@@ -1,3 +1,7 @@
+/*
+ * @author Fran
+ * @version 1.0
+ */
 public class FV_Circulo {
     private int id;
     private double radio;
@@ -5,12 +9,21 @@ public class FV_Circulo {
 
     public FV_Circulo() {
     }
-
+    /**
+     * Esto crea los objetos con o sin parametros
+     * 
+     */
     public FV_Circulo(String color, int id, double radio) {
         this.color = color;
         this.id = id;
         this.radio = radio;
     }
+    
+    /**
+     * Esto devuelve el area de el circulo
+     * usa el radio del circulo en el objeto
+     * @return
+     */
     public double CalculoAreaCirculo(){
         double result = Math.PI*(this.radio*this.radio);
         return result;

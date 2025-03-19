@@ -1,4 +1,12 @@
+/*
+ * @author Fran
+ * @version 1.0
+ */
 public class Main {
+    /**
+     * aca se crean los objetos y se prueba que todo funcione
+     * @param args
+     */
     public static void main(String[] args) {
         FV_Circulo circulo = new FV_Circulo("rojo",1,3);
         FV_Rectangulo cuadrado = new FV_Rectangulo("azul",1,4,4);
@@ -17,8 +25,12 @@ public class Main {
         System.out.println("differencia"+diferencias);
     }
     
-    
-    
+    /**
+     * Esto calcula la diferencia entre area1 y area2
+     * @param area1
+     * @param area2
+     * @return
+     */
     public static double CalculoDiferencia(double area1,double area2){
         return area1-area2;
     }
