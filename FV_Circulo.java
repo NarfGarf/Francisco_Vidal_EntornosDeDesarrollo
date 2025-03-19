@@ -11,7 +11,10 @@ public class FV_Circulo {
         this.id = id;
         this.radio = radio;
     }
-
+    public double CalculoAreaCirculo(){
+        double result = Math.PI*(this.radio*this.radio);
+        return result;
+    }
     public int getId() {
         return id;
     }

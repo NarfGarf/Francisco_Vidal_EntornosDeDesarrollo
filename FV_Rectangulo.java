@@ -13,7 +13,9 @@ public class FV_Rectangulo {
         this.ladoA = ladoA;
         this.ladoB = ladoB;
     }
-
+    public double CalculoAreaCuadrado(){
+        return this.ladoA*this.ladoB;
+    }
     @Override
     public String toString() {
         return "FV_Rectangulo [id=" + id + ", ladoA=" + ladoA + ", ladoB=" + ladoB + ", color=" + color + "]";
